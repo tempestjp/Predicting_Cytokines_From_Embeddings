@@ -1,0 +1,10 @@
+model = XGBClassifier(n_estimators=100, max_depth=3, learning_rate=0.01, objective='binary:logistic')
+
+Average performance for all 10 RFEF predictable cytokines - F1 score of about 0.77.
+
+Some evidence of over fitting. Needs tuning for each individual cytokine in follow up analysis.
+
+
+
+
+
